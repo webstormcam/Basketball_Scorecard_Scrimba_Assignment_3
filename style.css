@@ -59,6 +59,8 @@ body{
 
 .score-num{
     border: 3px solid #7DD3FC;
+    font-family: inherit;
+    background-color: #0C4A6E;
     color: #7DD3FC;
     padding: 0.7rem;
     border-radius: 0.4rem;
