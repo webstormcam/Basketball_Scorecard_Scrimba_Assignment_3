@@ -48,6 +48,8 @@ body{
     border-radius: 1rem;
     max-width: 155px;
     width: 100%;
+    transition: 0.5s;
+    border: 1px solid black;
 }
 
 .score-options{
@@ -68,6 +70,13 @@ body{
     margin-right: 0.3rem;
 }
 
+#new-game{
+    color: #F94F6D;
+    background-color: yellow;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
 .option-button{
     font-family: inherit;
 }
@@ -78,4 +87,10 @@ body{
     align-items: center;
     justify-content: center;
     
+}
+
+.score-num:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
 }
