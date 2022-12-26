@@ -19,6 +19,8 @@ body{
 #score-area{
     display: flex;
     max-width: 575px;
+    justify-content: space-around;
+    width: 100%;
 
 }
 
