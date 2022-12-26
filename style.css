@@ -9,4 +9,27 @@
 
 body{
    font-family: basketball;
+   background-color: #0C4A6E ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+#score-area{
+    display: flex;
+    max-width: 575px;
+
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+}
+
+.team{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.5rem;
 }
