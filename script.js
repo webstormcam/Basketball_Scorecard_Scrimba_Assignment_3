@@ -43,12 +43,15 @@ function addThreeGuest(){
 function winningCheck(){
     if(homeCount>guestCount){
         home.style.border="1px solid yellow"
+        guest.style.border="none"
     } else if(guestCount>homeCount){
         guest.style.border="1px solid yellow"
-    } else if(homeCount===guestCount){
         home.style.border="none"
-        guest.style.border="none"
-    }
+    
+} else if(guestCount===homeCount){
+    guest.style.border="none"
+    home.style.border="none"
+}
 }
 
 function reset(){
@@ -56,6 +59,8 @@ function reset(){
     guestCount=0;
     home.innerHTML=homeCount
     guest.innerHTML=guestCount
+    guest.style.border="none"
+    home.style.border="none"
 }
 
 
