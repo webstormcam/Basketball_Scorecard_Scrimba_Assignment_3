@@ -15,21 +15,21 @@
         <p class="team">HOME</p>
         <p id="home-score" class="total">0</p>
         <div class="score-options">
-            <button class="score-num">+1</button>
-            <button class="score-num">+2</button>
-            <button class="score-num">+3</button>
+            <button onclick="addOneHome()" class="score-num">+1</button>
+            <button onclick="addTwoHome()" class="score-num">+2</button>
+            <button onclick="addThreeHome()" class="score-num">+3</button>
         </div>
     </div>
     <div id="game-options-area">
-        <button class="option-button" id="new-game">New Game</button>
+        <button class="option-button" onclick="reset()" id="new-game">New Game</button>
     </div>
     <div class="score" id="guest">
         <p class="team">GUEST</p>
         <p id="guest-score" class="total">0</p>
         <div class="score-options">
-            <button class="score-num">+1</button>
-            <button class="score-num">+2</button>
-            <button class="score-num">+3</button>
+            <button onclick="addOneGuest()" class="score-num">+1</button>
+            <button onclick="addTwoGuest()" class="score-num">+2</button>
+            <button onclick="addThreeGuest()" class="score-num">+3</button>
         </div>
     </div>
  </div>
